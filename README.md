@@ -14,5 +14,5 @@ A simulated differential-drive robot explores a room with walls, builds an occup
 - Built-in metrics: localization error, path length, minimum clearance, area explored, map accuracy, obstacle IoU
 
 
---How it works:** 
+**How it works:** 
 - sense  ->  map  ->  estimate gradient  ->  decide  ->  move   (repeats every dt = 0.1 s)
